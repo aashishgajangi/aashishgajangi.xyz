@@ -1,0 +1,43 @@
+:root {
+    color-scheme: light dark;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: cursive; */
+    /* font-family: sans 'Courier New', Courier, monospace; */
+    font-family: 'Comic Neue', cursive;
+    width: 80%;
+    margin: auto;
+    max-width: 800px;
+}
+
+h1.header__name {
+    font-size: 1.8em;
+    text-align: center;
+    /* border-bottom: solid 3px violet; */
+    
+}
+hr.header__hr {
+    border-bottom: solid 3px violet;
+    
+}
+nav.main__nav {
+    display: flex;
+    justify-content: center;
+}
+
+a.main__nav_link {
+    font-size: 1.4em;
+    margin-left: 1em;
+}
+h2.intro__title {
+    text-align: center;
+}
+h2.workflow__title {
+    text-align: center;
+}
+p.intro__text {
+    font-size: 1.2rem;
+}
+div.footer__container {
+    margin-top: 20%;
+    text-align: center;
+}
